@@ -1,5 +1,5 @@
 import React from "react";
-import portImg from "../assets/portImg.jpeg";
+import newImg from "../assets/newImg.jpg";
 
 
 
@@ -12,7 +12,7 @@ const styles = {
        
     },
      background:{
-         backgroundImage : "url(" + portImg + ")",
+         backgroundImage : "url(" + newImg + ")",
          height: 700
          
      }
@@ -24,7 +24,7 @@ function Index() {
         
         <div style={styles.background}>
             <h1 style={styles.headingStyle}>
-                Welcome to my page!
+                Hello! I am Denisa Dupu
                 <br></br>
                  Take a look at some of my recent projects 
             </h1>

@@ -18,7 +18,7 @@ function Header(){
     return(
         <div>
             
-            <Link to="/">
+            <Link to="/react-portfolio">
             <img style={styles.imgStyle} src={home} alt="link"/>
             </Link>
             

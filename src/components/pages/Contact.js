@@ -1,6 +1,6 @@
 import React from "react";
-import portImg from "../assets/portImg.jpeg";
-import { red } from "color-name";
+import newImg from "../assets/newImg.jpg";
+
 
 const styles = {
   headingStyle: {
@@ -11,12 +11,12 @@ const styles = {
   linkStyle: {
     fontSize: 20,
     textAlign: "center",
-    padding: 40,
-    textColor: red
+    padding: 10,
+    
 
   },
   background:{
-    backgroundImage : "url(" + portImg + ")",
+    backgroundImage : "url(" + newImg + ")",
     height: 700
     
 }
