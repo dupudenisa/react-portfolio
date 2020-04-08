@@ -15,7 +15,12 @@ function Footer(){
             <h1 style = {styles.headingStyle}>
             Copyright: Denisa Dupu 2020
             </h1>
+
+            <h1 style={styles.headingStyle}>
+            PORTFOLIO - ReactJS App
+            </h1>
         </div>
+        
 
     );
 }

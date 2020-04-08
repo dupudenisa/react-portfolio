@@ -10,8 +10,10 @@ const styles = {
     margin: 0
   },
     cardStyle: {
-      maxwidth: 50,
-      padding: 100
+  
+      maxwidth: 30,
+      padding: 100,
+      opacity: 5
 
     },
     background:{
@@ -25,7 +27,7 @@ const styles = {
 function About() {
   return (
     <div style={styles.background}>
-    <div  className="card mb-3" style={styles.cardStyle}>
+    <div  className="card mb-3" style={styles.background}>>
       <div className="row no-gutters">
         <div className="col-md-4">
           <img style={styles.imageStyle} src={myimage} className="card-img" alt="..." />

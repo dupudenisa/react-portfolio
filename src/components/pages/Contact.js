@@ -1,5 +1,6 @@
 import React from "react";
 import portImg from "../assets/portImg.jpeg";
+import { red } from "color-name";
 
 const styles = {
   headingStyle: {
@@ -10,7 +11,8 @@ const styles = {
   linkStyle: {
     fontSize: 20,
     textAlign: "center",
-    padding: 40
+    padding: 40,
+    textColor: red
 
   },
   background:{

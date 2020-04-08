@@ -22,9 +22,9 @@ const styles = {
 
   return (
 
-    <div  style={styles.background}>
+    <div>
 
-<div className="col mb-4">
+    <div className="col mb-4">
         <div className="card">
         <h5 className="card-title">My First Group Project</h5>
         <a href="https://github.com/robertharris95/RDOProject1" target="_blank">Loqal Project 1</a>
