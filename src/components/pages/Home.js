@@ -1,4 +1,5 @@
 import React from "react";
+import portImg from "../assets/portImg.jpeg";
 
 import PasswordGenerator from "../assets/PasswordGenerator.png";
 import Proj1 from "../assets/project1-1.png";
@@ -9,14 +10,19 @@ function Home() {
 
 const styles = {
   imageStyle: {
-    height: 500, 
-    width: 750
-  }
+    height: 400, 
+    width: 550
+  },
+  background:{
+    backgroundImage : "url(" + portImg + ")",
+    height: 700
+    
+}
 };
 
   return (
 
-    <div>
+    <div  style={styles.background}>
 
 <div className="col mb-4">
         <div className="card">
@@ -69,17 +75,7 @@ const styles = {
         </div>
       </div>
 
-      <div className="col mb-4">
-        <div className="card">
-          <img style = {styles.imageStyle} src={project2} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <a href="https://github.com/dupudenisa/Project-2" target="_blank">Project/</a>
-          <a href="https://mighty-journey-05291.herokuapp.com/" target="_blank">deployment</a>
-            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
+      
 
     </div >
   );

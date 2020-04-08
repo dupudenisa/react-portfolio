@@ -1,5 +1,6 @@
 import React from "react";
 import myimage from "../assets/myimage.png"
+import portImg from "../assets/portImg.jpeg";
 
 const styles = {
   imageStyle: {
@@ -12,14 +13,19 @@ const styles = {
       maxwidth: 50,
       padding: 100
 
-    }
+    },
+    background:{
+      backgroundImage : "url(" + portImg + ")",
+      height: 700
+      
+  }
   
 };
 
 function About() {
   return (
-
-    <div className="card mb-3" style={styles.cardStyle}>
+    <div style={styles.background}>
+    <div  className="card mb-3" style={styles.cardStyle}>
       <div className="row no-gutters">
         <div className="col-md-4">
           <img style={styles.imageStyle} src={myimage} className="card-img" alt="..." />
@@ -33,6 +39,7 @@ function About() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

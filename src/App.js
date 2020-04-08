@@ -6,6 +6,7 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Index from "./components/pages/Index";
 
 
 function App() {
@@ -15,9 +16,11 @@ function App() {
           <NavTabs />
           <Header />
           
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Index} />
+          <Route exact path="/home" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+         
 
           <Footer/>
 
