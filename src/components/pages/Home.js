@@ -74,7 +74,6 @@ function Home() {
         <div className="row no-gutters">
           <div className="col-md-6">
             <a href="https://github.com/dupudenisa/randompassword-application-javascript" target="_blank">PasswordGenerator/</a>
-            <br></br>
             <a href="https://dupudenisa.github.io/randompassword-application-javascript/" target="_blank">Deployment</a>
             <img style={styles.imageStyle} src={PasswordGenerator} className="card-img-top" alt="Passgen" />
           </div>
@@ -98,13 +97,13 @@ function Home() {
       <div className="card">
         <h5 className="card-title">Weather Application</h5>
         <div className="row no-gutters">
-          <div className="col-md-6">
+          <div className="col-md-5">
             <a href="https://github.com/dupudenisa/weather-forecast" target="_blank">Weather/</a>
             <a href="https://dupudenisa.github.io/weather-forecast/" target="_blank">Deployment</a>
             <img style={styles.imageStyle} src={weatherF} className="card-img-top" alt="weatherF" />
           </div>
 
-          <div className="col-md-5">
+          <div className="col-md-7">
             <div className="card-body">
               <h5 className="card-title">About Me</h5>
               <p className="card-text">This is the summery of the project
