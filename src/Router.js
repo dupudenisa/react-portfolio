@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Index from "./components/pages/Index";
@@ -21,7 +20,7 @@ class App extends Component {
                     <Route exact path='/react-portfolio' component={Index} />
                     <Route path="/home" component={Home} />
                     <Route path="/about" component={About} />
-                    <Route path="/contact" component={Contact} />
+                    
 
 
                     <Footer />
