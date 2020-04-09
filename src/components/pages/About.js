@@ -31,6 +31,12 @@ const styles = {
     height: 90,
     width: 90
 
+  },
+  linkStyle: {
+    textColor: "blue"
+  },
+  fontStyle: {
+    fontFamily: "Suez One , serif" 
   }
 
 };
@@ -45,16 +51,20 @@ function About() {
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">About Me</h5>
-              <p className="card-text">My Name is Denisa Dupu and I am currently attending a full stack web developement bootcamp at Rice University.
-            I am excited to learn something new every day, and am prepared to dive my foot into the coding world!
+              <h5 className="card-title">I am a Web developer from Houston, Texas. </h5>
+              <p className="card-text"> 
+              I take pride in solving complex problems 
+              and turning them into simple beautiful interface designs.
+              Check out my latest projects on my home page and contact me at dupudenisa@gmail.com
+       
+
           </p>
             </div>
 
             <div className="card-body">
 
               <h5 className="card-title">Skills</h5>
-              <p className="card-text">These are my skills</p>
+             
               <img style={styles.iconImgs} src={reactImg} className="card-img" alt="reactImg" />
               <img style={styles.iconImgs} src={nodeImg} className="card-img" alt="nodeImg" />
               <img style={styles.iconImgs} src={jQ} className="card-img" alt="jQImg" />
@@ -67,28 +77,26 @@ function About() {
 
             
 
-            <div className="card">
-              <div className="card-body">
+            
               <div style={styles.linkStyle} className="form-group">
                 <a href="https://www.linkedin.com/in/denisa-dupu-947894143/" target="_blank">Linkedin</a>
               </div>
-              </div>
-              </div>
+              
+             
 
 
-              <div className="card">
-              <div className="card-body">
+              
               <div style={styles.linkStyle} className="form-group">
                 <a href="https://github.com/dupudenisa" target="_blank">Github</a>
               </div>
-              </div>
               
-           
+              
+           </div>
           </div>
         </div>
       </div>
-    </div>
-    </div >
+    
+   
   );
 }
 

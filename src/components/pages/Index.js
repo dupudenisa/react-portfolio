@@ -5,17 +5,19 @@ import newImg from "../assets/newImg.jpg";
 
 const styles = {
     headingStyle: {
-        fontSize: 20,
+        fontSize: 30,
         textAlign: "center",
-        padding: 150,
-        
-       
+        padding: 100, 
+        fontFamily: "Suez One , serif"   
     },
      background:{
          backgroundImage : "url(" + newImg + ")",
          height: 700
          
-     }
+     },
+     fontStyle: {
+        fontFamily: "Suez One , serif" 
+    }
     
 };
 
@@ -24,9 +26,9 @@ function Index() {
         
         <div style={styles.background}>
             <h1 style={styles.headingStyle}>
-                Hello! I am Denisa Dupu
-                <br></br>
-                 Take a look at some of my recent projects 
+                 Denisa Dupu
+            
+               <h2 style={styles.headingStyle}> Web Developer </h2> 
             </h1>
         </div>
 
