@@ -51,7 +51,7 @@ function About() {
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">I am a Web developer from Houston, Texas. </h5>
+              <h5 className="card-title"> Web Developer - Houston, Texas. </h5>
               <p className="card-text"> 
               I take pride in solving complex problems 
               and turning them into simple beautiful interface designs.
