@@ -40,6 +40,7 @@ function Home() {
               <p className="card-text"> HandleCare is a React application made for Senior Assisted Living facilities where caregivers can keep track of their residents more effectively on a daily basis,
                as well as sharing the progress with the residents family members from home. Working in an assisted living facility inspired me to create an application where everyone can benefit from and
                 use to make everyones lives easier. With this application, caregivers can easily communicate with the nurses on how each resident is doing, and the family members from home can be more at ease with viewing this information.  
+                
           </p>
             </div>
           </div>
@@ -63,6 +64,7 @@ function Home() {
               <h5 className="card-title"></h5>
               <p className="card-text"> An application which allows you to add, view, and comment on virtual art as a community.
                In this group project I was in charge of the user authentication.I used Passport in order to successfully implement the authentication. 
+
           </p>
             </div>
           </div>
