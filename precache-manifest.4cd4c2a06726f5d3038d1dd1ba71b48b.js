@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce4b6774933e885ed0bff313d8c67d2c",
+    "revision": "9b1fa00a14aa172808f1cb93ff12015f",
     "url": "/react-portfolio/index.html"
   },
   {
@@ -12,16 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.6bccfea0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f95b15a313dbd99072ee",
-    "url": "/react-portfolio/static/js/main.787e6c1e.chunk.js"
+    "revision": "d0f19bfadc02f97f3f22",
+    "url": "/react-portfolio/static/js/main.754a4943.chunk.js"
   },
   {
     "revision": "a229530a0c0d1ed130b6",
     "url": "/react-portfolio/static/js/runtime-main.65d8297c.js"
-  },
-  {
-    "revision": "517218a6291869ba1d237978ec12c4c9",
-    "url": "/react-portfolio/static/media/HandleCare.517218a6.png"
   },
   {
     "revision": "4e26ec771dfff66d124376350c0f07a9",
@@ -50,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6abf91027c83ca56a51a131c444a79f4",
     "url": "/react-portfolio/static/media/portImg.6abf9102.jpeg"
+  },
+  {
+    "revision": "ace350800d1c101c5d1953c6f05e0127",
+    "url": "/react-portfolio/static/media/project1-1.ace35080.png"
   },
   {
     "revision": "2fb5617ce30a88debaadc65ab01b983d",
