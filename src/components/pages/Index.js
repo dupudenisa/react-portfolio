@@ -28,7 +28,7 @@ function Index() {
             <h1 style={styles.headingStyle}>
                  Denisa Dupu
             
-               <h2 style={styles.headingStyle}> Web Developer </h2> 
+               <h2 style={styles.headingStyle}> Full Stack Developer </h2> 
             </h1>
         </div>
 
